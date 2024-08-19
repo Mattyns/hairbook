@@ -25,7 +25,8 @@ header{
     margin-bottom: 5px;
     background-color: white;
     z-index: 1;
-    box-shadow: inset -1px 0px 0px 1px gray;
+    box-shadow: inset 0px 0px 0px 1px gray;
+    width: 100%;
     
 }
 
@@ -140,24 +141,31 @@ section#text{
 /*publicaçao*/
 
 #publi{
-    padding: 10px;
+    display: block;
+    padding: 5px;
+    
 }
 
 #perfil {
     position: relative;
     width: 63px;
     height: 63px;
+    min-width: 50px;
+    min-height: 50px;
     border-radius: 50%;
     margin-left: 20px;
 }
 
 #textpubli{
     position: relative;
+    text-align: center;
     top: -58px;
-    left: 100px;
-    font-size: 1.5em;
+    left: 95px;
+    font-size: 120%;
     background-color: rgb(161, 158, 158);
-    width: 210px;
+    width: 60%;
+    max-width: 60%;
+    
     height: 50px;
     border-radius: 20px;
 }
@@ -167,7 +175,7 @@ section#text{
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
     color: red;
-    top: 10px;
+    top: 12px;
     padding: 3px;
     
 }
@@ -175,7 +183,7 @@ section#text{
 #photoadd{
     display: block;
     position: relative;
-    left: 320px;
+    left: 90%;
     top: -98px;
     font-size: 2em;
     color: rgb(57, 21, 141);
