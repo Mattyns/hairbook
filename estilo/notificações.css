@@ -70,3 +70,60 @@
     top: -68px;
     left: 47%;
 }
+
+@media screen and (min-width:100px) and (max-width:330px) {
+
+
+
+    #perfilnoti {
+        position: relative;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        top: -25px;
+        margin-left: 5px;
+        border: 2px solid gray;
+    }
+
+
+    #notificação1 > i {
+        color: black;
+        font-size: 1.5em;
+    }
+    
+    #like {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        border: 3px solid white;
+        border-radius: 50%;
+        background-color: rgba(57, 21, 141, 0.595);
+        position: relative;
+        top: -20px;
+        left: -40px;
+        
+    }
+    
+    #namenoti{
+        position: relative;
+        top: -103px;
+        left: 105px;
+        font-size: 105%;
+        width: 150px;
+    }
+    
+    .timenoti {
+        font-size: 1.3em;
+        position: relative;
+        top: -100px;
+        left: 105px;
+        color: rgb(52, 51, 51);
+    }
+    
+    #menunoti {
+        position: relative;
+        top: -78px;
+        left: 50%;
+    }
+    
+}

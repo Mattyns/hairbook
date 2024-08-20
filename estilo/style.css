@@ -105,6 +105,8 @@ nav.menu2 i{
 
 
 
+
+
 #storys{
     margin-top: 120px;
     margin-bottom: 20px;
@@ -150,8 +152,6 @@ section#text{
     position: relative;
     width: 63px;
     height: 63px;
-    min-width: 50px;
-    min-height: 50px;
     border-radius: 50%;
     margin-left: 20px;
 }
@@ -164,7 +164,6 @@ section#text{
     font-size: 120%;
     background-color: rgb(161, 158, 158);
     width: 60%;
-    max-width: 60%;
     
     height: 50px;
     border-radius: 20px;
@@ -189,3 +188,112 @@ section#text{
     color: rgb(57, 21, 141);
 }
 
+/*----------------------tablet 1--------------------*/
+
+
+@media screen and (min-width:500px) and (max-width:600px) {
+
+    nav.menu2 {
+   
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    
+    }
+    
+    nav.menu2 > a {
+        padding:0px 60px;
+        text-align: center;
+        
+        
+        
+        
+    }
+    
+    nav > a > i {
+        width: 20px;
+        color: red;
+        
+        
+        
+    }
+    
+    nav.menu2 i{
+        font-size: 2em;
+        top: -50px;
+        
+        
+        
+    }
+    
+    #select{
+        color: rgb(91, 164, 243);
+    }
+
+    /* story aqui*/
+
+    /*fim story*/
+
+
+
+    
+
+
+
+
+
+    
+}
+
+@media screen  and (min-width:500px) and (max-width:600px) {
+
+    #publi{
+        display: block;
+        padding: 5px;
+        
+    }
+    
+    #perfil {
+        position: relative;
+        width: 63px;
+        height: 63px;
+        border-radius: 50%;
+        margin-left: 20px;
+    }
+    
+    #textpubli{
+        position: relative;
+        text-align: center;
+        top: -58px;
+        left: 95px;
+        font-size: 120%;
+        background-color: rgb(161, 158, 158);
+        width: 70%;
+        height: 50px;
+        border-radius: 20px;
+    }
+    
+    #textpubli2{
+
+        position: relative;
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+        color: red;
+        top: 10px;
+        padding: 3px;
+        font-size: 1.5em;
+        
+    }
+    
+    #photoadd{
+        display: block;
+        position: relative;
+        left: 90%;
+        top: -98px;
+        font-size: 2em;
+        color: rgb(57, 21, 141);
+    }
+    
+}
+
+/* ---------------------------------fim tablet 1------------------------------*/
