@@ -182,7 +182,7 @@
     #time {
         position: relative;
         top:-133px;
-        left: 90%;
+        left: 93%;
         transform: translate(-5%);
         font-size: .9em;
     }
@@ -214,7 +214,7 @@
         border-radius: 5px;
         font-size: 120%;
         text-align: center;
-        width: 25%;
+        width: 29%;
         
         
     }
@@ -230,12 +230,15 @@
         border-radius: 5px;
         font-size: 120%;
         text-align: center;
-        width: 25%;
+        width: 29%;
         
         
     }
     
 }
+
+
+/*final tela a1 core*/
 
 
 
