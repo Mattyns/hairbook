@@ -84,7 +84,7 @@
 }
 
 
-@media screen and (max-Width:330px) {
+@media screen and (max-Width:315px) {
 
     #fotoamigo {
         width: 110px;
@@ -99,13 +99,13 @@
         font-size: 1.5em;
         font-weight: bolder;
         position: relative;
-        top: -122px;
+        top: -110px;
         left: 130px;
     }
     
     #time {
         position: relative;
-        top:-148px;
+        top:-133px;
         left: 270px;
         font-size: .9em;
     }
@@ -115,41 +115,121 @@
         height: 30px;
         border-radius: 50%;
         position: relative;
-        top: -142px;
+        top: -125px;
         left: 130px;
     }
     
     #comumtext {
         position: relative;
-        top: -175px;
+        top: -153px;
         left: 166px;
         font-size: 1em;
     }
     
     #aceitar1 {
         position: relative;
-        top: -162px;
+        top: -140px;
         left: 130px;
         background-color: red;
         color: white;
         width: 80px;
-        padding: 2px 0px;
+        padding: 3px;
         border-radius: 5px;
         font-size: 120%;
         text-align: center;
+        
+        
     }
     
     #rejeitar1 {
         position: relative;
-        top: -194px;
+        top: -168px;
         left: 230px;
-        background-color: rgb(54, 13, 238);
+        background-color: gray;
         color:black;
         width: 80px;
-        padding: 2px 0px;
+        padding: 3px 0px;
         border-radius: 5px;
         font-size: 120%;
         text-align: center;
+        
+        
+    }
+    
+}
+
+@media screen and (min-width:316px) and (max-Width:500px) {
+
+    #fotoamigo {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        border: 2px solid gray;
+        margin: 5px;
+    
+    }
+    
+    #perfilnome{
+        font-size: 1.5em;
+        font-weight: bolder;
+        position: relative;
+        top: -110px;
+        left: 130px;
+    }
+    
+    #time {
+        position: relative;
+        top:-133px;
+        left: 83%;
+        font-size: .9em;
+    }
+    
+    #amigocomum{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: relative;
+        top: -125px;
+        left: 130px;
+    }
+    
+    #comumtext {
+        position: relative;
+        top: -153px;
+        left: 166px;
+        font-size: 1em;
+    }
+    
+    #aceitar1 {
+        position: relative;
+        top: -140px;
+        left: 130px;
+        background-color: red;
+        color: white;
+        width: 80px;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 28%;
+        
+        
+    }
+    
+    #rejeitar1 {
+        position: relative;
+        top: -168px;
+        left: 63%;
+        background-color: gray;
+        color:black;
+        width: 80px;
+        padding: 3px 0px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 28%;
+        
+        
     }
     
 }
