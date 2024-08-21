@@ -158,7 +158,7 @@
     
 }
 
-@media screen and (min-width:316px) and (max-Width:500px) {
+@media screen and (min-Width:316px) and (max-Width:500px) {
 
     #fotoamigo {
         width: 110px;
@@ -237,7 +237,7 @@
 
 /*teste*/
 
-@media screen and (min-width:710px) and (max-Width:800px) {
+@media screen and (min-Width:710px) and (max-Width:800px) {
 
     #fotoamigo {
         width: 110px;
