@@ -145,3 +145,48 @@
     font-size: 1.3em;
     font-weight: bold;
 }
+
+#lain > p#tamanho1 {
+    color: black;
+    position: relative;
+    top: -104px;
+    left: 162px;
+    font-size: 1.3em;
+    font-weight: bold;
+    display: none;
+}
+
+@media screen and (min-Width:430px) and (max-Width:500px) {
+    
+    #solicitaçõesdemsg2{
+        position: relative;
+        text-decoration: none;
+        color: black;
+        font-size: 1.3em;
+        top: -15px;
+        background-color: rgba(128, 128, 128, 0.234);
+        border-radius: 10px;
+        padding: 8px 8%;
+    }
+    
+    #lain > p {
+        color: black;
+        position: relative;
+        top: -104px;
+        left: 162px;
+        font-size: 1.3em;
+        font-weight: bold;
+        display: none;
+    }
+
+    #lain > p#tamanho1 {
+        color: black;
+        position: relative;
+        top: -104px;
+        left: 162px;
+        font-size: 1.3em;
+        font-weight: bold;
+        display: block;
+    }
+    
+}
