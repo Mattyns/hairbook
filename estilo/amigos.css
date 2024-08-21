@@ -84,7 +84,7 @@
 }
 
 
-@media screen and (max-Width:320px) {
+@media screen and (max-Width:330px) {
 
     #fotoamigo {
         width: 110px;
@@ -99,13 +99,13 @@
         font-size: 1.5em;
         font-weight: bolder;
         position: relative;
-        top: -110px;
+        top: -122px;
         left: 130px;
     }
     
     #time {
         position: relative;
-        top:-133px;
+        top:-148px;
         left: 270px;
         font-size: .9em;
     }
@@ -115,25 +115,25 @@
         height: 30px;
         border-radius: 50%;
         position: relative;
-        top: -125px;
+        top: -142px;
         left: 130px;
     }
     
     #comumtext {
         position: relative;
-        top: -153px;
+        top: -175px;
         left: 166px;
         font-size: 1em;
     }
     
     #aceitar1 {
         position: relative;
-        top: -140px;
+        top: -162px;
         left: 130px;
         background-color: red;
         color: white;
         width: 80px;
-        padding: 3px 0px;
+        padding: 2px 0px;
         border-radius: 5px;
         font-size: 120%;
         text-align: center;
@@ -141,12 +141,12 @@
     
     #rejeitar1 {
         position: relative;
-        top: -168px;
+        top: -194px;
         left: 230px;
-        background-color: gray;
+        background-color: rgb(54, 13, 238);
         color:black;
         width: 80px;
-        padding: 3px 0px;
+        padding: 2px 0px;
         border-radius: 5px;
         font-size: 120%;
         text-align: center;
