@@ -318,3 +318,152 @@
     }
     
 }
+
+
+
+@media screen and (min-Width:501px) and (max-Width:600px) {
+
+    #fotoamigo {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        border: 2px solid gray;
+        margin: 5px;
+    
+    }
+    
+    #perfilnome{
+        font-size: 1.5em;
+        font-weight: bolder;
+        position: relative;
+        top: -110px;
+        left: 130px;
+    }
+    
+    #time {
+        position: relative;
+        top:-133px;
+        left: 91%;
+        font-size: .9em;
+    }
+    
+    #amigocomum{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: relative;
+        top: -125px;
+        left: 130px;
+    }
+    
+    #comumtext {
+        position: relative;
+        top: -153px;
+        left: 166px;
+        font-size: 1em;
+    }
+    
+    #aceitar1 {
+        position: relative;
+        top: -140px;
+        left: 130px;
+        background-color: red;
+        color: white;
+        width: 80px;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 35%;
+        
+        
+    }
+    
+    #rejeitar1 {
+        position: relative;
+        top: -168px;
+        left: 63%;
+        background-color: gray;
+        color:black;
+        width: 80px;
+        padding: 3px 0px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 35%;
+        
+        
+    }
+    
+}
+
+/*------------------------------tela grandes novo layout------------------------ */
+
+@media screen and (min-Width:601px) and (max-Width:900px) {
+
+    #amigo1 {
+        margin: 5px;
+        width: 210px;
+        background-color: rgb(214, 211, 211);
+        border-radius: 10px;
+        
+    }
+    
+    
+    
+    #fotoamigo {
+        border-radius: 10px 10px 0px 0px;
+        width: 210px;
+        height: 200px;
+        padding: 0px;
+        margin: 0px;
+        border: none;
+      
+    
+    }
+    
+    #perfilnome{
+        top: 0px;
+        left: 0px;
+        margin: 5px;
+        
+       
+    }
+    
+    #time {
+        display: none;
+       
+    }
+    
+    #amigocomum{
+        top: 0px;
+        left: 0px;
+        margin: 0px 5px;
+       
+       
+    }
+    
+    #comumtext {
+        top: -30px;
+        left: 43px;
+        
+    }
+    
+    #aceitar1 {
+        top: -15px;
+        left: 0px;
+        width: 90%;
+        margin: auto;
+        
+       
+    }
+    
+    #rejeitar1 {
+        top: -10px;
+        left: 0px;
+        width: 90%;
+        margin: auto;
+        
+    }
+    
+}

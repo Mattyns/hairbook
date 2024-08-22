@@ -98,6 +98,10 @@ nav.menu2 i{
     
 }
 
+#group {
+    display: none;
+}
+
 #select{
     color: rgb(91, 164, 243);
 }
@@ -191,7 +195,7 @@ section#text{
 /*----------------------tablet 1--------------------*/
 
 
-@media screen and (min-width:500px) and (max-width:600px) {
+@media screen and (min-Width:500px) and (max-Width:600px) {
 
     nav.menu2 {
    
@@ -245,7 +249,7 @@ section#text{
     
 }
 
-@media screen  and (min-width:500px) and (max-width:600px) {
+@media screen  and (min-Width:500px) and (max-Width:600px) {
 
     #publi{
         display: block;
@@ -297,3 +301,197 @@ section#text{
 }
 
 /* ---------------------------------fim tablet 1------------------------------*/
+
+
+
+/*----------------------tablet 2--------------------*/
+
+
+@media screen and (min-Width:601px) and (max-Width:900px) {
+
+    nav.menu2 {
+   
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    
+    }
+    
+    nav.menu2 > a {
+        padding:0px 8%;
+        text-align: center;
+        
+        
+        
+        
+    }
+    
+    nav > a > i {
+        width: 20px;
+        color: red;
+        
+        
+        
+    }
+    
+    nav.menu2 i{
+        font-size: 2em;
+        top: -50px;
+        
+        
+        
+    }
+
+    #group {
+        display: block;
+    }
+    
+    #select{
+        color: rgb(91, 164, 243);
+    }
+
+    /* story aqui*/
+
+    /*fim story*/
+
+
+
+    
+
+
+
+
+
+    
+}
+
+@media screen  and (min-Width:601px) and (max-Width:900px) {
+
+    #publi{
+        display: block;
+        padding: 5px;
+        width: 80vw;
+        margin: auto;
+        
+    }
+    
+    #perfil {
+        position: relative;
+        width: 63px;
+        height: 63px;
+        border-radius: 50%;
+        margin-left: 2%;
+    }
+    
+    #textpubli{
+        position: relative;
+        text-align: center;
+        top: -58px;
+        left: 17.8%;
+        font-size: 120%;
+        background-color: rgb(161, 158, 158);
+        width: 65%;
+        height: 50px;
+        border-radius: 20px;
+    }
+    
+    #textpubli2{
+
+        position: relative;
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+        color: red;
+        top: 10px;
+        padding: 3px;
+        font-size: 1.5em;
+        
+    }
+    
+    #photoadd{
+        display: block;
+        position: relative;
+        left: 90%;
+        top: -98px;
+        font-size: 2em;
+        color: rgb(57, 21, 141);
+    }
+    
+}
+
+/* ---------------------------------fim tablet 2------------------------------*/
+
+
+
+
+
+
+
+
+
+#msgtelashow {
+    position: fixed;
+    margin: 10px;
+    float: right;
+    margin-left: 88vw;
+    margin-top: 50px;
+    cursor: pointer;
+
+    
+}
+
+#msgtelashow2 {
+    color: rgba(255, 0, 0, 0.39);
+    font-size: 3em;
+    border-radius: 50%;
+}
+
+#msgtelashow2:hover {
+    color: white;
+    background-color: red;
+    padding: 0px;
+    width: 50px;
+    border-radius: 10px;
+    font-size: 3.2em;
+    transition-duration: .8s;
+
+}
+
+
+#msgtela{
+    position: relative;
+    background-color: white;
+    width: 354px;
+    border: 2px solid gray;
+    border-radius: 10px;
+
+    top: -101%;
+    float: right;
+    display:  none;
+}
+
+#msgtela2 {
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px;
+
+}
+
+iframe {
+    width: 350px;
+    height: 500px;
+    
+    overflow-y: hidden;
+}
+
+#gearmensagem2 {
+    position: relative;
+    top: -30px;
+    left: 300px;
+    
+}
+
+#gearmensagem2 > i {
+    color: black;
+    font-size: 2em;
+   
+}
