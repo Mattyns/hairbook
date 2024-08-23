@@ -307,7 +307,7 @@ section#text{
 /*----------------------tablet 2--------------------*/
 
 
-@media screen and (min-Width:601px) and (max-Width:900px) {
+@media screen and (min-Width:601px) and (max-Width:700px) {
 
     nav.menu2 {
    
@@ -420,20 +420,99 @@ section#text{
 
 /* ---------------------------------fim tablet 2------------------------------*/
 
+/*--------------------------------menu grande--------------------------------*/
+@media screen and (min-Width:701px) and (max-Width:900px) {
+
+    nav.menu2 {
+   
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    
+    }
+    
+    nav.menu2 > a {
+        padding:0px 8%;
+        text-align: center;
+        
+        
+        
+        
+    }
+    
+    nav > a > i {
+        width: 20px;
+        color: red;
+        
+        
+        
+    }
+    
+    nav.menu2 i{
+        font-size: 2em;
+        top: -50px;
+        
+        
+        
+    }
+
+    #group {
+        display: block;
+    }
+    
+    #select{
+        color: rgb(91, 164, 243);
+    }
+
+    #sumirtelagrande {
+        display: none;
+    }
+
+    #msgtelashow2 {
+        display: block;
+    }
+
+    /* story aqui*/
+
+    /*fim story*/
+
+
+
+    
 
 
 
 
 
+    
+}
 
+/*---------------------------------fim menu grande-------------------------*/
+
+
+
+
+
+#fechartelamsg {
+    color: rgba(255, 0, 0, 0.403);
+    font-size: 2em;
+    position: relative;
+    left: 50%;
+    top: -20px;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+
+#fechartelamsg:hover {
+    
+    color: red;
+    border-radius: 50%;
+}
 
 
 #msgtelashow {
     position: fixed;
     margin: 10px;
-    float: right;
-    margin-left: 88vw;
-    margin-top: 50px;
     cursor: pointer;
 
     
@@ -443,31 +522,28 @@ section#text{
     color: rgba(255, 0, 0, 0.39);
     font-size: 3em;
     border-radius: 50%;
+    display: none;
 }
 
-#msgtelashow2:hover {
-    color: white;
-    background-color: red;
-    padding: 0px;
-    width: 50px;
-    border-radius: 10px;
-    font-size: 3.2em;
-    transition-duration: .8s;
 
-}
+
+
 
 
 #msgtela{
     position: relative;
+    top: -1px;
     background-color: white;
     width: 354px;
     border: 2px solid gray;
-    border-radius: 10px;
-
-    top: -101%;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.273);
+    margin-top: -100vh;
     float: right;
-    display:  none;
+    display: none;
 }
+
+
 
 #msgtela2 {
     position: relative;
@@ -495,3 +571,99 @@ iframe {
     font-size: 2em;
    
 }
+
+
+
+/*--------------------------------menu grande--------------------------------*/
+@media screen and (min-Width:701px) and (max-Width:900px) {
+
+    nav.menu2 {
+   
+        display: flex;
+        justify-content: left;
+        width: 100%;
+    
+    }
+    
+    nav.menu2 > a {
+        padding:0px 5%;
+        text-align: left;
+        
+        
+        
+        
+    }
+    
+    nav > a > i {
+        width: 20px;
+        color: red;
+        
+        
+        
+    }
+    
+    nav.menu2 i{
+        font-size: 2em;
+        top: -50px;
+        
+        
+        
+    }
+
+    #group {
+        display: block;
+    }
+    
+    #select{
+        color: rgb(91, 164, 243);
+    }
+
+    #sumirtelagrande {
+        display: none;
+    }
+    
+    #msgtelashow {
+        
+        margin-left: 90vw;
+        
+    }
+
+    #msgtelashow2 {
+        color: white;
+        
+        font-size: 2em;
+        display: block;
+        background-color: red;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    #msgtelashow2:hover {
+        background-color: red;
+        color: white;
+    }
+    
+    
+    
+    
+    
+   
+
+    /* story aqui*/
+
+    /*fim story*/
+
+
+
+    
+
+
+
+
+
+    
+}
+
+/*---------------------------------fim menu grande-------------------------*/
