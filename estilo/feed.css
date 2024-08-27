@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+#feed{
+    height: 100vh; /*Talvez seja preciso tirar ou mudar*/
+    
+}
+
+#publi1 {
+    position: relative;
+    top: 15px;
+    background-color: rgba(128, 128, 128, 0.194);
+    width: 80vw;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+#publi1 > h2 {
+    position: relative;
+    top: -14vw;
+    left: 18vw;
+    font-size: 5vw;
+}
+
+#publi1 >h3 {
+    position: relative;
+    top: -12vw;
+    left: 18vw;
+    font-size: 2.3vw;
+    color: gray;
+}
+
+#publi1 > p {
+    margin-left: 3vw;
+    position: relative;
+    top: -8vw;
+    font-size: 4vw;
+}
+
+#perfilpubli1 {
+    margin-left: 3vw;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+}
+
+#fotopostagem {
+    width: 100%;
+    position: relative;
+    top: -7vw;
+    height: 45vh;
+}
+
+#curtidas {
+    position: relative;
+    top: -8vw;
+    left: 0px;
+    margin: 2vw;
+    
+    
+}
+
+#curtidas > i {
+    font-size: 3vw;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#curtidas  p {
+    display: inline;
+    font-size: 3.1vw;
+    position: relative;
+    top: -0.6vw;
+    
+
+}
+
+#interações {
+    
+    height: 10%;
+    display: flex;
+    position: relative;
+    top: -6vw;
+    
+}
+
+#fundolike {
+    background-color: rgba(128, 128, 128, 0.259);
+    width: 25vw;
+    position: relative;
+    border-radius: 20px;
+    margin: 1vw;
+    
+}
+
+#like {
+    position: relative;
+    margin: auto;
+    width: 20px;
+}
+
+#like > i {
+    padding: 4px 0px;
+    
+    
+    
+}
+
+#fundocoment {
+
+    background-color: rgba(128, 128, 128, 0.259);
+    width: 25vw;
+    position: relative;
+    border-radius: 20px;
+    margin: 1vw;
+    
+}
+
+#coment {
+    position: relative;
+    margin: auto;
+    width: 20px;
+}
+
+#coment > i {
+    padding: 4px 0px;
+    
+    
+    
+}
+
+#fundoshare {
+
+    background-color: rgba(128, 128, 128, 0.259);
+    width: 25vw;
+    position: relative;
+    border-radius: 20px;
+    margin: 1vw;
+    
+}
+
+#share {
+    position: relative;
+    margin: auto;
+    width: 20px;
+}
+
+#share > i {
+    padding: 4px 0px;
+    
+    
+    
+}

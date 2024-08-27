@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hairbook</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/feed.css">
 </head>
 <body>
     <main>
@@ -20,57 +22,92 @@
                 <i class="material-icons" id="msgtelashow2">chatoutilined</i>
             </div>
 
+            <div id="notitelashow" onclick="teladenoti()">
+                <i class="material-icons" id="notitelashow2">notificationsoutlined</i>
+            </div>
+
             <nav class="menu2">
                 <a href="index.html"><i class="material-icons" id="select">homeoutilinedpx</i></a>
                 <a href="amigos.html"><i class="material-icons">groupoutilined</i></a>
                 <a href="mensagens.html" id="sumirtelagrande"><i class="material-icons">chatoutilined</i></a>
                 <a href="#" id="group"><i class="material-icons">groups</i></a>
-                <a href="notificações.html"><i class="material-icons">notificationsoutlined</i></a>
+                <a href="notificações.html" id="sumirtelagrande"><i class="material-icons">notificationsoutlined</i></a>
                 
 
             </nav>
+            
            
         </header>
-        <section id="storys">
-            <div id="story">
-                <img src="img/luffy.jpg" alt="Mina" id="storymini">
-                <p>Monkey D. luffy</p>
-            </div>
-            <div id="story">
-                <img src="img/2meninas.webp" alt="2meninas" id="storymini">
-                <p>Yui Kumiko</p>
-            </div>
-            <div id="story">
-                <img src="img/goku.jpg" alt="goku" id="storymini">
-                <p>Goku</p>
-            </div>
-            <div id="story">
-                <img src="img/hinata.jpg" alt="hinata" id="storymini">
-                <p>Hinata</p>
-            </div>
-            <div id="story">
-                <img src="img/garota.jpg" alt="Mina" id="storymini">
-                <p>Mina Shikaraki</p>
-            </div>
-            <div id="story">
-                <img src="img/bayonetta.jpg" alt="Mina" id="storymini">
-                <p>Cereza</p>
-            </div>
-            <div id="story">
-                <img src="img/power.webp" alt="Power" id="storymini">
-                <p>Power</p>
-            </div>
+        <section id="storyandpubli">
+            <section id="storys">
+                <div id="story">
+                    <img src="img/luffy.jpg" alt="Mina" id="storymini">
+                    <p>Monkey D. luffy</p>
+                </div>
+                <div id="story">
+                    <img src="img/2meninas.webp" alt="2meninas" id="storymini">
+                    <p>Yui Kumiko</p>
+                </div>
+                <div id="story">
+                    <img src="img/goku.jpg" alt="goku" id="storymini">
+                    <p>Goku</p>
+                </div>
+                <div id="story">
+                    <img src="img/hinata.jpg" alt="hinata" id="storymini">
+                    <p>Hinata</p>
+                </div>
+                <div id="story">
+                    <img src="img/garota.jpg" alt="Mina" id="storymini">
+                    <p>Mina Shikaraki</p>
+                </div>
+                <div id="story">
+                    <img src="img/bayonetta.jpg" alt="Mina" id="storymini">
+                    <p>Cereza</p>
+                </div>
+                <div id="story">
+                    <img src="img/power.webp" alt="Power" id="storymini">
+                    <p>Power</p>
+                </div>
             
+            </section>
+            <section id="publi">
+                <img src="img/robin.jpg" alt="robin" id="perfil">
+                <div id="textpubli"><a href="#" id="textpubli2">Publique aqui!</a></div>
+                <i class="material-icons" id="photoadd">photolibrary</i>
+            </section>
+        </section>
+
+        
+
+        <section id="feed">
+            <div id="publi1">
+                <img src="img/hinata.jpg" alt="Hinata" id="perfilpubli1">
+                <h2>Hinata</h2>
+                <h3>5min atrás</h3>
+                <p>Mais que amigas, friends!</p>
+                <img src="img/hinata2.jpg" alt="foto" id="fotopostagem">
+                <div id="curtidas">
+                    <i class="material-icons">thumb_up</i> <p>50 curtidas</p>
+                </div>
+        
+                <div id="interações">
+                    <div id="fundolike">
+                        <p id="like"><i class="material-icons-outlined">thumb_up_outlined</i></p>
+                    </div>
+                    <div id="fundocoment">
+                        <p id="coment"><i class="material-icons-outlined">keyboard_outlined</i></p>
+                    </div>
+                    <div id="fundoshare">
+                        <p id="share"><i class="material-icons-outlined">reply</i></p>
+                    </div>
+                </div>
+
+            </div>
 
         </section>
 
 
-        <section id="publi">
-            <img src="img/robin.jpg" alt="robin" id="perfil">
-            <div id="textpubli"><a href="#" id="textpubli2">Publique aqui!</a></div>
-            <i class="material-icons" id="photoadd">photolibrary</i>
 
-        </section>
 
 
         <section id="text">
@@ -113,6 +150,18 @@
             </div>
             <hr>
             <iframe src="mensagens2.html" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <div id="notitela">
+        <div id="posfixednoti">
+            <div id="notitela2">
+                <i class="material-icons" id="fechartelanoti" onclick="sumirteladenoti()">arrow_drop_up</i>
+                <h1>Notificações</h1>
+                <a href="#" id="gearnoti2"><i class="material-icons">settings</i></a>
+            </div>
+            <hr>
+            <iframe src="notificações2.html" frameborder="0"></iframe>
         </div>
     </div>
 

@@ -3,8 +3,9 @@
 
 
 #barranoti {
-    margin-top: 110px;
+    margin-top: 120px;
     padding: 10px;
+    background-color: white;
 }
 
 #barranoti > h2 {
@@ -31,6 +32,11 @@
     top: -20px;
     margin-left: 8px;
     border: 2px solid gray;
+}
+
+#notificações {
+    background-color: white;
+    height: 100vh;
 }
 
 #notificação1 > i {

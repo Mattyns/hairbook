@@ -10,11 +10,13 @@ body, html{
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    background-color: rgba(128, 128, 128, 0.356);
 }
 
 main{
     width: 100vw;
     height: 100vh;
+    
     
 }
 
@@ -25,8 +27,10 @@ header{
     margin-bottom: 5px;
     background-color: white;
     z-index: 1;
-    box-shadow: inset 0px 0px 0px 1px gray;
+    padding-bottom:8px; 
     width: 100%;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.356);
+    
     
 }
 
@@ -111,6 +115,13 @@ nav.menu2 i{
 
 
 
+
+#storyandpubli {
+    
+    border-radius: 5px 5px 5px 5px;
+    background-color:white;
+}
+
 #storys{
     margin-top: 120px;
     margin-bottom: 20px;
@@ -149,6 +160,8 @@ section#text{
 #publi{
     display: block;
     padding: 5px;
+    width: 100vw;
+    height: 100px;
     
 }
 
@@ -191,6 +204,23 @@ section#text{
     font-size: 2em;
     color: rgb(57, 21, 141);
 }
+
+
+
+
+
+
+#feed {
+    position: relative;
+    background-color:white;
+    height: 500px; /*remover*/
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    top: 3px;
+}
+
+
+
 
 /*----------------------tablet 1--------------------*/
 
@@ -254,6 +284,7 @@ section#text{
     #publi{
         display: block;
         padding: 5px;
+        width: 100%;
         
     }
     
@@ -418,6 +449,8 @@ section#text{
     
 }
 
+
+
 /* ---------------------------------fim tablet 2------------------------------*/
 
 /*--------------------------------menu grande--------------------------------*/
@@ -531,16 +564,20 @@ section#text{
 
 
 #msgtela{
-    position: relative;
-    top: -1px;
+    position: fixed;
+    
     background-color: white;
     width: 354px;
     border: 2px solid gray;
     border-radius: 10px 0px 0px 10px;
     box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.273);
-    margin-top: -100vh;
+    top: -5%;
+    left: 100%;
+    transform: translate(-100%, 5%);
+    margin-top: 15vh;
     float: right;
     display: none;
+    z-index: 1;
 }
 
 
@@ -567,6 +604,88 @@ iframe {
 }
 
 #gearmensagem2 > i {
+    color: black;
+    font-size: 2em;
+   
+}
+
+
+
+
+/*--------notificação tela---------*/
+
+#fechartelanoti {
+    color: rgba(255, 0, 0, 0.403);
+    font-size: 2em;
+    position: relative;
+    left: 50%;
+    top: -20px;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+
+#fechartelanoti:hover {
+    
+    color: red;
+    border-radius: 50%;
+}
+
+#notitelashow {
+    position: fixed;
+    margin: 10px;
+    cursor: pointer;
+
+    
+}
+
+#notitelashow2 {
+    color: rgba(255, 0, 0, 0.39);
+    font-size: 3em;
+    border-radius: 50%;
+    display: none;
+}
+
+#notitela{
+    position: fixed;
+    
+    background-color: white;
+    width: 354px;
+    border: 2px solid gray;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.273);
+    top: -5%;
+    left: 100%;
+    transform: translate(-100%, 5%);
+    margin-top: 15vh;
+    float: right;
+    display: none;
+    z-index: 1;
+}
+
+
+
+#notitela2 {
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px;
+
+}
+
+iframe {
+    width: 350px;
+    height: 500px;
+    
+    overflow-y: hidden;
+}
+
+#gearnoti2 {
+    position: relative;
+    top: -30px;
+    left: 300px;
+    
+}
+
+#gearnoti2 > i {
     color: black;
     font-size: 2em;
    
@@ -624,16 +743,20 @@ iframe {
     
     #msgtelashow {
         
-        margin-left: 90vw;
+        margin-left: 97vw;
         
+    }
+
+    #msgtelashow:hover{
+        transition-duration: .8s;
+        margin-left: 90vw;
     }
 
     #msgtelashow2 {
         color: white;
-        
         font-size: 2em;
         display: block;
-        background-color: red;
+        background-color: rgba(255, 0, 0, 0.537);
         width: 100%;
         height: 50px;
         border-radius: 10px;
@@ -646,6 +769,35 @@ iframe {
     }
     
     
+    /*--------notificação tela---------*/
+
+    #notitelashow {
+        
+        margin-left: 97vw;
+        top: 120px
+        
+    }
+
+    #notitelashow:hover{
+        transition-duration: .8s;
+        margin-left: 90vw;
+    }
+
+    #notitelashow2 {
+        color: white;
+        font-size: 2em;
+        display: block;
+        background-color: rgba(255, 0, 0, 0.537);
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    #notitelashow2:hover {
+        background-color: red;
+        color: white;
+    }
     
     
     

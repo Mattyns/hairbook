@@ -3,7 +3,10 @@
 
 
 #amigos {
-    margin-top: 130px;
+    margin-top: 120px;
+    background-color: white;
+    height: 100vh;
+    border-radius: 5px 5px 0px 0px;
 }
 
 #amigos > h1 {
@@ -81,6 +84,11 @@
     border-radius: 5px;
     font-size: 1.5em;
     text-align: center;
+}
+
+#amigo2 {
+    position: relative;
+    top: -140px;
 }
 
 
@@ -407,6 +415,16 @@
         background-color: rgb(214, 211, 211);
         border-radius: 10px;
         
+    }
+
+    #amigo2 {
+        margin: 5px;
+        width: 210px;
+        background-color: rgb(214, 211, 211);
+        border-radius: 10px;
+        position: relative;
+        top: -372px;
+        left: 245px;
     }
     
     
