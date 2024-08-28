@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+#notificação1 {
+  height: 20vh;
+}
+
 #fundonoti {
   background-color: white;
   height: 100vh;
@@ -26,5 +30,25 @@
 }
 
 #notificaçõestela2 {
+  background-color: white;
   margin-top: 60px;
+  height: 120%;
+}
+
+#like {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color: rgba(57, 21, 141, 0.595);
+  position: relative;
+  top: -22px;
+  left: -42px;
+  
+  
+}
+
+i#like {
+  font-size: 25px;
 }

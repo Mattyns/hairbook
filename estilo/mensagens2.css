@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+#recebidas{
+    background-color: white;
+    height: 22vh;
+}
+
+
 #mensagens {
     height: 100%;
 }

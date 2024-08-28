@@ -39,6 +39,10 @@
     height: 100vh;
 }
 
+#notificação1 {
+    height: 15vh;
+}
+
 #notificação1 > i {
     color: black;
     font-size: 2em;
@@ -52,9 +56,14 @@
     border-radius: 50%;
     background-color: rgba(57, 21, 141, 0.595);
     position: relative;
-    top: -20px;
-    left: -40px;
+    top: -22px;
+    left: -42px;
     
+    
+}
+
+i#like {
+    font-size: 25px;
 }
 
 #namenoti{

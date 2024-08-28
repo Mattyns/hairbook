@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
 #feed{
-    height: 100vh; /*Talvez seja preciso tirar ou mudar*/
-    
+    height: 1000vh; /*Talvez seja preciso tirar ou mudar*/
+    background-color: white;
 }
 
 #publi1 {
+    
     position: relative;
     top: 15px;
     background-color: rgba(128, 128, 128, 0.194);
@@ -48,7 +49,7 @@
     width: 100%;
     position: relative;
     top: -7vw;
-    height: 45vh;
+    height: 100%;
 }
 
 #curtidas {
@@ -68,6 +69,8 @@
     border-radius: 50%;
 }
 
+
+
 #curtidas  p {
     display: inline;
     font-size: 3.1vw;
@@ -76,6 +79,7 @@
     
 
 }
+
 
 #interações {
     
