@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
-
+#fundoamigo{
+    background-color: white;
+    
+}
 
 #amigos {
     margin-top: 120px;
     background-color: white;
-    height: 100vh;
     border-radius: 5px 5px 0px 0px;
 }
 
@@ -26,6 +28,7 @@
     border-radius: 50%;
     border: 2px solid gray;
     margin: 5px;
+    
 
 }
 
@@ -89,6 +92,13 @@
 #amigo2 {
     position: relative;
     top: -140px;
+    height: 140px;
+}
+
+#amigo3 {
+    position: relative;
+    top: -140px;
+    height: 140px;
 }
 
 
@@ -407,11 +417,12 @@
 
 /*------------------------------tela grandes novo layout------------------------ */
 
-@media screen and (min-Width:601px) and (max-Width:900px) {
+@media screen and (min-Width:601px)  {
 
     #amigo1 {
         margin: 5px;
         width: 210px;
+        height: 54%;
         background-color: rgb(214, 211, 211);
         border-radius: 10px;
         
@@ -420,11 +431,25 @@
     #amigo2 {
         margin: 5px;
         width: 210px;
-        background-color: rgb(214, 211, 211);
+        height: 54%;
+        background-color:rgb(214, 211, 211);
         border-radius: 10px;
         position: relative;
         top: -372px;
         left: 245px;
+    }
+
+    #amigo3 {
+        margin: 5px;
+        width: 210px;
+        background-color: rgb(214, 211, 211);
+        border-radius: 10px;
+        position: relative;
+        top: -350px;
+        
+
+        
+
     }
     
     
@@ -482,6 +507,54 @@
         width: 90%;
         margin: auto;
         
+    }
+    
+}
+
+@media screen and (min-Width:751px) {
+    #amigo1 {
+        margin: 5px;
+        width: 210px;
+        height: 54%;
+        background-color: rgb(214, 211, 211);
+        border-radius: 10px;
+        
+    }
+
+    #amigo2 {
+        margin: 5px;
+        width: 210px;
+        height: 54%;
+        background-color:rgb(214, 211, 211);
+        border-radius: 10px;
+        position: relative;
+        top: -372px;
+        left: 245px;
+    }
+
+    #amigo3 {
+        
+        margin: 5px;
+        width: 210px;
+        background-color: rgb(214, 211, 211);
+        border-radius: 10px;
+        position: relative;
+        top: -744px;
+        left: 490px;
+        
+        
+
+        
+
+    }
+    
+}
+
+@media screen and (min-Width:900px) {
+    #amigos{
+        
+        width: 710px;
+        margin:121px auto;
     }
     
 }

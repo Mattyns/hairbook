@@ -396,7 +396,7 @@ section#text{
     
 }
 
-@media screen  and (min-Width:601px) and (max-Width:900px) {
+@media screen  and (min-Width:601px) {
 
     #publi{
         display: block;
@@ -454,7 +454,7 @@ section#text{
 /* ---------------------------------fim tablet 2------------------------------*/
 
 /*--------------------------------menu grande--------------------------------*/
-@media screen and (min-Width:701px) and (max-Width:900px) {
+@media screen and (min-Width:701px)  {
 
     nav.menu2 {
    
@@ -694,7 +694,7 @@ iframe {
 
 
 /*--------------------------------menu grande--------------------------------*/
-@media screen and (min-Width:701px) and (max-Width:900px) {
+@media screen and (min-Width:701px) {
 
     nav.menu2 {
    
