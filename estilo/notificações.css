@@ -36,11 +36,32 @@
 
 #notificações {
     background-color: white;
-    height: 100vh;
+    height: 120vh;
 }
 
 #notificação1 {
     height: 15vh;
+}
+
+@media screen and (min-Height:500px) {
+    #notificação1 {
+        height: 22vh;
+    }
+    
+}
+
+@media screen and (min-Height:600px) {
+    #notificação1 {
+        height: 18vh;
+    }
+    
+}
+
+@media screen and (min-Height:900px) {
+    #notificação1 {
+        height: 12vh;
+    }
+    
 }
 
 #notificação1 > i {
@@ -117,6 +138,10 @@ i#like {
         top: -20px;
         left: -40px;
         
+    }
+
+    i#like {
+        font-size: 15px;
     }
     
     #namenoti{

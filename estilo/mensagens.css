@@ -114,8 +114,28 @@
 
 #recebidas{
     background-color: white;
-    height: 15vh;
+    height: 20vh;
+    margin-bottom: 3vh;
 }
+
+@media screen and (min-Height:600px) {
+    #recebidas{
+        background-color: white;
+        height: 16vh;
+        margin-bottom: 1vh;
+    }
+    
+}
+
+@media screen and (min-Height:850px) {
+    #recebidas{
+        background-color: white;
+        height: 12vh;
+        margin-bottom: 0vh;
+    }
+    
+}
+
 
 #receb {
     text-decoration: none;
@@ -127,6 +147,7 @@
     height: 100px;
     border-radius: 50%;
     margin-left: 10px;
+    margin-bottom: 2vh;
 }
 
 #lain > h2 {
