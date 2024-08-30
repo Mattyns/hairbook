@@ -103,6 +103,7 @@
     position: relative;
     margin: auto;
     width: 20px;
+    cursor: pointer;
 }
 
 #like > i {
@@ -126,6 +127,7 @@
     position: relative;
     margin: auto;
     width: 20px;
+    cursor: pointer;
 }
 
 #coment > i {
@@ -149,9 +151,56 @@
     position: relative;
     margin: auto;
     width: 20px;
+    cursor: pointer;
 }
 
 #share > i {
+    padding: 4px 0px;
+    
+    
+    
+}
+
+#fundolike2 {
+    background-color: rgba(128, 128, 128, 0.259);
+    width: 25vw;
+    position: relative;
+    border-radius: 20px;
+    margin: 1vw;
+    
+}
+
+#like2 {
+    position: relative;
+    margin: auto;
+    width: 20px;
+    cursor: pointer;
+}
+
+#like2 > i {
+    padding: 4px 0px;
+    
+    
+    
+}
+
+#fundolike3 {
+    background-color: rgba(128, 128, 128, 0.259);
+    width: 25vw;
+    position: relative;
+    border-radius: 20px;
+    margin: 1vw;
+    
+}
+
+#like3 {
+    position: relative;
+    margin: auto;
+    width: 20px;
+    cursor: pointer;
+}
+
+#like3 > i {
     padding: 4px 0px;
     
     
