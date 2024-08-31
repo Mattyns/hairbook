@@ -74,6 +74,7 @@
     border-radius: 5px;
     font-size: 1.5em;
     text-align: center;
+    cursor: pointer;
 }
 
 #rejeitar1 {
@@ -87,6 +88,7 @@
     border-radius: 5px;
     font-size: 1.5em;
     text-align: center;
+    cursor: pointer;
 }
 
 #amigo2 {
@@ -99,6 +101,94 @@
     position: relative;
     top: -140px;
     height: 140px;
+}
+
+#amigocomum2{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: -150px;
+    left: 165px;
+}
+
+#comumtext2 {
+    position: relative;
+    top: -180px;
+    left: 205px;
+    font-size: 1.1em;
+}
+
+#aceitar2 {
+    position: relative;
+    top: -160px;
+    left: 165px;
+    background-color: red;
+    color: white;
+    width: 92px;
+    padding: 3px 0px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+#rejeitar2 {
+    position: relative;
+    top: -193px;
+    left: 265px;
+    background-color: gray;
+    color:black;
+    width: 92px;
+    padding: 3px 0px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+#amigocomum3{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: -150px;
+    left: 165px;
+}
+
+#comumtext3 {
+    position: relative;
+    top: -180px;
+    left: 205px;
+    font-size: 1.1em;
+}
+
+#aceitar3 {
+    position: relative;
+    top: -160px;
+    left: 165px;
+    background-color: red;
+    color: white;
+    width: 92px;
+    padding: 3px 0px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+#rejeitar3 {
+    position: relative;
+    top: -193px;
+    left: 265px;
+    background-color: gray;
+    color:black;
+    width: 92px;
+    padding: 3px 0px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
 }
 
 
@@ -160,6 +250,100 @@
     }
     
     #rejeitar1 {
+        position: relative;
+        top: -168px;
+        left: 230px;
+        background-color: gray;
+        color:black;
+        width: 80px;
+        padding: 3px 0px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        
+        
+    }
+
+    #amigocomum2{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: relative;
+        top: -125px;
+        left: 130px;
+    }
+    
+    #comumtext2 {
+        position: relative;
+        top: -153px;
+        left: 166px;
+        font-size: 1em;
+    }
+    
+    #aceitar2 {
+        position: relative;
+        top: -140px;
+        left: 130px;
+        background-color: red;
+        color: white;
+        width: 80px;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        
+        
+    }
+    
+    #rejeitar2 {
+        position: relative;
+        top: -168px;
+        left: 230px;
+        background-color: gray;
+        color:black;
+        width: 80px;
+        padding: 3px 0px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        
+        
+    }
+
+
+
+    #amigocomum3{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: relative;
+        top: -125px;
+        left: 130px;
+    }
+    
+    #comumtext3 {
+        position: relative;
+        top: -153px;
+        left: 166px;
+        font-size: 1em;
+    }
+    
+    #aceitar3 {
+        position: relative;
+        top: -140px;
+        left: 130px;
+        background-color: red;
+        color: white;
+        width: 80px;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        
+        
+    }
+    
+    #rejeitar3 {
         position: relative;
         top: -168px;
         left: 230px;
@@ -238,6 +422,103 @@
     }
     
     #rejeitar1 {
+        position: relative;
+        top: -168px;
+        left: 70%;
+        background-color: gray;
+        color:black;
+        width: 80px;
+        padding: 3px 0px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 29%;
+        
+        
+    }
+
+
+    #amigocomum2{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: relative;
+        top: -125px;
+        left: 130px;
+    }
+    
+    #comumtext2 {
+        position: relative;
+        top: -153px;
+        left: 166px;
+        font-size: 1em;
+    }
+    
+    #aceitar2 {
+        position: relative;
+        top: -140px;
+        left: 130px;
+        background-color: red;
+        color: white;
+        width: 80px;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 29%;
+        
+        
+    }
+    
+    #rejeitar2 {
+        position: relative;
+        top: -168px;
+        left: 70%;
+        background-color: gray;
+        color:black;
+        width: 80px;
+        padding: 3px 0px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 29%;
+        
+        
+    }
+
+    #amigocomum3{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: relative;
+        top: -125px;
+        left: 130px;
+    }
+    
+    #comumtext3 {
+        position: relative;
+        top: -153px;
+        left: 166px;
+        font-size: 1em;
+    }
+    
+    #aceitar3 {
+        position: relative;
+        top: -140px;
+        left: 130px;
+        background-color: red;
+        color: white;
+        width: 80px;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 29%;
+        
+        
+    }
+    
+    #rejeitar3 {
         position: relative;
         top: -168px;
         left: 70%;
@@ -334,6 +615,105 @@
         
         
     }
+
+
+
+
+    #amigocomum2{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: relative;
+        top: -125px;
+        left: 130px;
+    }
+    
+    #comumtext2 {
+        position: relative;
+        top: -153px;
+        left: 166px;
+        font-size: 1em;
+    }
+    
+    #aceitar2 {
+        position: relative;
+        top: -140px;
+        left: 130px;
+        background-color: red;
+        color: white;
+        width: 80px;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 28%;
+        
+        
+    }
+    
+    #rejeitar2 {
+        position: relative;
+        top: -168px;
+        left: 63%;
+        background-color: gray;
+        color:black;
+        width: 80px;
+        padding: 3px 0px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 28%;
+        
+        
+    }
+
+    #amigocomum3{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: relative;
+        top: -125px;
+        left: 130px;
+    }
+    
+    #comumtext3 {
+        position: relative;
+        top: -153px;
+        left: 166px;
+        font-size: 1em;
+    }
+    
+    #aceitar3 {
+        position: relative;
+        top: -140px;
+        left: 130px;
+        background-color: red;
+        color: white;
+        width: 80px;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 28%;
+        
+        
+    }
+    
+    #rejeitar3 {
+        position: relative;
+        top: -168px;
+        left: 63%;
+        background-color: gray;
+        color:black;
+        width: 80px;
+        padding: 3px 0px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 28%;
+        
+        
+    }
     
 }
 
@@ -412,6 +792,104 @@
         
         
     }
+
+
+
+    #amigocomum2{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: relative;
+        top: -125px;
+        left: 130px;
+    }
+    
+    #comumtext2 {
+        position: relative;
+        top: -153px;
+        left: 166px;
+        font-size: 1em;
+    }
+    
+    #aceitar2 {
+        position: relative;
+        top: -140px;
+        left: 130px;
+        background-color: red;
+        color: white;
+        width: 80px;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 35%;
+        
+        
+    }
+    
+    #rejeitar2 {
+        position: relative;
+        top: -168px;
+        left: 63%;
+        background-color: gray;
+        color:black;
+        width: 80px;
+        padding: 3px 0px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 35%;
+        
+        
+    }
+
+    #amigocomum3{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: relative;
+        top: -125px;
+        left: 130px;
+    }
+    
+    #comumtext3 {
+        position: relative;
+        top: -153px;
+        left: 166px;
+        font-size: 1em;
+    }
+    
+    #aceitar3 {
+        position: relative;
+        top: -140px;
+        left: 130px;
+        background-color: red;
+        color: white;
+        width: 80px;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 35%;
+        
+        
+    }
+    
+    #rejeitar3 {
+        position: relative;
+        top: -168px;
+        left: 63%;
+        background-color: gray;
+        color:black;
+        width: 80px;
+        padding: 3px 0px;
+        border-radius: 5px;
+        font-size: 120%;
+        text-align: center;
+        width: 35%;
+        
+        
+    }
     
 }
 
@@ -442,6 +920,7 @@
     #amigo3 {
         margin: 5px;
         width: 210px;
+        height: 54%;
         background-color: rgb(214, 211, 211);
         border-radius: 10px;
         position: relative;
@@ -508,6 +987,74 @@
         margin: auto;
         
     }
+
+
+
+
+
+    #amigocomum2{
+        top: 0px;
+        left: 0px;
+        margin: 0px 5px;
+       
+       
+    }
+    
+    #comumtext2 {
+        top: -30px;
+        left: 43px;
+        
+    }
+    
+    #aceitar2 {
+        top: -15px;
+        left: 0px;
+        width: 90%;
+        margin: auto;
+        
+       
+    }
+    
+    #rejeitar2 {
+        top: -10px;
+        left: 0px;
+        width: 90%;
+        margin: auto;
+        
+    }
+
+
+
+    #amigocomum3{
+        top: 0px;
+        left: 0px;
+        margin: 0px 5px;
+       
+       
+    }
+    
+    #comumtext3 {
+        top: -30px;
+        left: 43px;
+        
+    }
+    
+    #aceitar3 {
+        top: -15px;
+        left: 0px;
+        width: 90%;
+        margin: auto;
+        
+       
+    }
+    
+    #rejeitar3 {
+        top: -10px;
+        left: 0px;
+        width: 90%;
+        margin: auto;
+        
+    }
     
 }
 
@@ -536,6 +1083,7 @@
         
         margin: 5px;
         width: 210px;
+        height: 54%;
         background-color: rgb(214, 211, 211);
         border-radius: 10px;
         position: relative;

@@ -5,7 +5,7 @@ function curtir1() {
     var like = window.document.getElementById('like')
     like.style.color = ('white')
     fundolike.style.backgroundColor = ('red')
-    curtidas.innerText = '51 Curtidas'
+    curtidas.innerText = 'Você e outras 50 pessoas curtiram'
     like.setAttribute("onclick","descurtir1(this);");
     
 }
@@ -33,7 +33,7 @@ function curtir2() {
     var like2 = window.document.getElementById('like2')
     like2.style.color = ('white')
     fundolike2.style.backgroundColor = ('red')
-    curtidas2.innerText = '126 Curtidas'
+    curtidas2.innerText = 'Você e outras 125 pessoas curtiram'
     like2.setAttribute("onclick","descurtir2(this);");
     
 }
@@ -61,7 +61,7 @@ function curtir3() {
     var like3 = window.document.getElementById('like3')
     like3.style.color = ('white')
     fundolike3.style.backgroundColor = ('red')
-    curtidas3.innerText = '46 Curtidas'
+    curtidas3.innerText = 'Você e outras 45 pessoas curtiram'
     like3.setAttribute("onclick","descurtir3(this);");
     
 }
